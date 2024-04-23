@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh; 
+    width: 100vw;
+    background-image: url();
+    background-size: cover;
+    
+}
+
+.caixa{
+    background-color: #000000;
+    opacity: 0.8;
+    width: 95%;     
+    max-width: 450px;  
+    border-radius: 25px;
+    padding: 20px;
+    color:black;
+}
+
+.lupa{
+    height: 23px;
+    width: 23px;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color:#7c7c7c60;
+    cursor: pointer;
+    border-radius: 50px;
+    float: right;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #7c7c7c;
+}
+input{
+    color: #fcf4f4;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7c7c7c60;
+    width: calc(100% - 100px);
+    font-size: 22px;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.cidade{
+    color: #fff;
+    font-size: 25px;
+}
+
+.graus{
+    color:#fff;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.previsao{
+    position: relative;
+    color: #fff;
+    left: 70px;
+    top: -28px;
+    text-transform: capitalize;
+}
+.umidade{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+
+    }
+    100%{
+        top: 11px;
+    }
+}
+
+.icone{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease;
+    background-image: url(image1.jpg);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex; /* Adicionando flexbox para centralizar os elementos */
+    flex-direction: column; /* Organizando os elementos em uma coluna */
+    align-items: center; /* Centralizando os elementos na direção transversal */
+    justify-content: center; /* Centralizando os elementos na direção principal */
+    min-height: 100vh; /* Para garantir que o contêiner cubra a altura da janela */
+  }
+  
+  .caixa {
+    text-align:;
+    margin-bottom: 20px; /* Adicionando um espaçamento entre as caixas */
+  }
+  
+  
+  .container {
+    text-align: center;
+  }
+
+  .button-container {
+    position: absolute; /* Posicionando os botões absolutamente em relação ao contêiner */
+    bottom: 0; /* Posicionando os botões no final do contêiner */
+    left: 50%; /* Posicionando os botões no centro horizontalmente */
+    transform: translateX(-50%); /* Ajustando a posição horizontalmente */
+    margin-top:-10px;
+    
+  }
+
+  button.container {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    margin-top: 
+  }
+
+
+  
+  .selected {
+    background-color: #ccc; /* Cor de fundo para indicar seleção */
+  }
+
+  .container h1{
+    position: relative;
+    top: 180px;
+    font-size: 20px;
+    color: #0d0047;
+  }
+
+  .icones-contato {
+    position: fixed; /* Posição fixa para manter o ícone na tela enquanto rola */
+    top: 20px; /* Distância do topo da janela */
+    right: 20px; /* Distância da direita da janela */
+    z-index: 999; /* Para garantir que o ícone esteja acima de outros elementos */
+}
+
+.icones-contato a {
+    color: #f8f8f8;
+    font-size: 30px; /* Ajuste o tamanho do ícone conforme desejado */
+}
